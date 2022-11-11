@@ -20,15 +20,16 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(255, 120, 79);
+    background-color: #51A3A3;
     padding: 10px 100px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60;
     white-space: nowrap;
 }
 
+
 .header {
-    background-color: rgb(68, 66, 212);
+    background-color: #DA9310;
     height: 200px;
 }
 .content {
@@ -37,12 +38,22 @@ body {
     padding: 20px;
 }
 .content>table {
+    width: auto;
     border: solid 1px black;
-    tbody tr:nth-child(even) td{
-        background-color: #e9e9e9;
-        cursor: pointer
-    }
 }
+.content>table thead th {
+    background-color: #c05746;
+    color: wheat;
+}
+content>table tbody tr:nth-child(even) td{
+        background-color: #007C77;
+    }
+content>table tbody tr:hover td{
+        background-color: #4C1A57;
+        cursor: pointer;
+}
+
+    
 .footer {
     background-color: rgb(153, 98, 30);
     height: 50px;
